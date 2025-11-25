@@ -14,6 +14,11 @@ const taskSchema = new mongoose.Schema(
       type: Boolean,
       default: false,
     },
+    // Pomodoro count field
+    pomodoroCount: {
+      type: Number,
+      default: 0,
+    },
   },
   {
     timestamps: true,
